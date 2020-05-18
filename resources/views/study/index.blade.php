@@ -10,7 +10,7 @@
 
   @if(isset($categories[0]))
   <div class="row">
-  <div class="col col-xs-12 col-md-8">
+  <div class="col col-12 col-md-8">
     @if($errors->has('body_edit') || $errors->has('time_edit'))
       <div class="alert alert-danger">
         @foreach($errors->all() as $message)
@@ -67,7 +67,7 @@
       </tbody>
     </table>
     </div>
-    <div class="col col-xs-12 col-md-4">
+    <div class="col col-12 col-md-4">
       <nav class="card">
         <div class="card-header">学習内容を追加する</div>
         <div class="card-body">
