@@ -1,0 +1,87 @@
+header {
+  height: 70px;
+  background: darkblue;
+}
+
+body {
+  background: lavender;
+  font-family: Verdana, sans-serif;
+}
+
+.container {
+  margin-top: 15px;
+}
+
+.navbar {
+  padding: 1rem;
+  color: royalblue;
+}
+
+.navbar > a {
+  font-size: 20px;
+}
+
+.navbar a, .table a {
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #eee;
+  transition: .4s;
+}
+
+.col {
+  margin: 30px auto;
+}
+
+.table td {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+
+.today {
+  background-color: darkturquoise;
+}
+
+.fa-edit {
+  display: none;
+}
+
+.fa-trash {
+  display: none;
+}
+
+@media (max-width: 480px) {
+
+  .welcome {
+    display: none;
+  }
+  
+  .fa-edit {
+    display: block;
+  }
+
+  .edit-text {
+    display: none;
+  }
+
+  .fa-trash {
+    display: block;
+  }
+
+  .delete-text {
+    display: none;
+  }
+
+  .study-table span {
+    display: none;
+  }
+
+  .study-time {
+    text-align: center;
+  }
+  
+
+}
+
